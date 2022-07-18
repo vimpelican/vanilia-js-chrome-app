@@ -1,7 +1,17 @@
-function sayHello(nameOfPerson,age){
-    console.log("Hello my name is " + nameOfPerson + " and I'm " + age);
+function plus(firstNum, secondNum){
+    console.log(firstNum+secondNum);
 }
 
-sayHello("nico", 20);
-sayHello("dal", 21);
-sayHello("lynn", 22);
+function divide (a, b){
+    console.log(a/b);
+}
+
+const player = {
+    name: "nico",
+    sayHello: function (otherPesronsName) {
+        console.log("hello " + otherPesronsName + " nice to meet you")
+    },
+}
+
+player.sayHello("lynn");
+player.sayHello("nico");
