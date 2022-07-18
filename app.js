@@ -1,15 +1,9 @@
-const player = {
-    name : "Gyejin",
-    points : 10,
-    fat : false,
-};
+function sayHello(){
+    console.log("Hello my name is C");
+}
 
-console.log(player);
+sayHello("1");
 
-// update value
-player.points += 15;
+sayHello("2");
 
-// add something in object
-player.lastName = "Cho";
-
-console.log(player);
+sayHello("3");
