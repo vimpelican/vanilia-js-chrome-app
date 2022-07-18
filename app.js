@@ -1,15 +1,15 @@
-const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+const player = {
+    name : "Gyejin",
+    points : 10,
+    fat : false,
+};
 
-// Get Items from Array
-console.log(daysOfWeek);
+console.log(player);
 
-// Add one more day to the array
-daysOfWeek.push("sun");
+// update value
+player.points += 15;
 
-console.log(daysOfWeek);
+// add something in object
+player.lastName = "Cho";
 
-const toBuy = ["tomato", "potato", "pizza"];
-
-toBuy.push("kimbab");
-
-console.log(toBuy[9999999]);    //undefined
+console.log(player);
