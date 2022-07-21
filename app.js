@@ -1,2 +1,5 @@
-// JS is already connected to HTML
-document.title = "Hello from JS!"
+const title = document.getElementById("title");
+
+title.innerText = "Got you!"
+
+console.log(title.className)
